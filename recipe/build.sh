@@ -4,3 +4,4 @@ export CFLAGS="${CFLAGS} -lrt"
 export CXXFLAGS="${CXXFLAGS} -lrt"
 ./autogen.sh --prefix=$PREFIX
 make -j$(nproc) install
+make check
