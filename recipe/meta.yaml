@@ -12,7 +12,7 @@ source:
 
 build:
   skip: True  # [not linux]
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -40,12 +40,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: 'Media GPU kernel manager for Intel G45 & HD Graphics family'
-
-  # The remaining entries in this section are optional, but recommended
   description: |
-    Overview
-    --------
-    Target:
     One solution to expose Intel’s Gen GPU’s high performance through high
     level language.
 
@@ -60,12 +55,6 @@ about:
     Prepare media GPU kernel arguments
     Transfer data between system and GPU memory
     Report errors
-
-    User:
-    Media and Graphics kernel developers.
-    General purpose GPU computing developers.
-
-    Components: CM runtime engine.
 
 extra:
   recipe-maintainers:
