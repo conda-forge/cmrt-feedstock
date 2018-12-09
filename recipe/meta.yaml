@@ -44,18 +44,6 @@ about:
     One solution to expose Intel’s Gen GPU’s high performance through high
     level language.
 
-    Features:
-    Interface between host program and driver
-    Manage Gen device
-    Manage surfaces
-    Manage media GPU kernels
-    Manage events
-    Manage threads
-    Manage execution
-    Prepare media GPU kernel arguments
-    Transfer data between system and GPU memory
-    Report errors
-
 extra:
   recipe-maintainers:
     - hmaarrfk
