@@ -1,6 +1,8 @@
 About cmrt
 ==========
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://github.com/intel/cmrt
 
 Package license: MIT
@@ -9,29 +11,8 @@ Feedstock license: BSD 3-Clause
 
 Summary: Media GPU kernel manager for Intel G45 & HD Graphics family
 
-Overview
---------
-Target:
 One solution to expose Intel’s Gen GPU’s high performance through high
 level language.
-
-Features:
-Interface between host program and driver
-Manage Gen device
-Manage surfaces
-Manage media GPU kernels
-Manage events
-Manage threads
-Manage execution
-Prepare media GPU kernel arguments
-Transfer data between system and GPU memory
-Report errors
-
-User:
-Media and Graphics kernel developers.
-General purpose GPU computing developers.
-
-Components: CM runtime engine.
 
 
 Current build status
@@ -127,3 +108,9 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@hmaarrfk](https://github.com/hmaarrfk/)
+
