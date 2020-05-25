@@ -12,7 +12,6 @@ Summary: Media GPU kernel manager for Intel G45 & HD Graphics family
 One solution to expose Intel’s Gen GPU’s high performance through high
 level language.
 
-
 Current build status
 ====================
 
