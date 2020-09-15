@@ -12,7 +12,7 @@ source:
 
 build:
   skip: True  # [not linux]
-  number: 1001
+  number: 1002
   # https://github.com/intel/cmrt/blob/master/NEWS
   run_exports:
     - {{ pin_subpackage('cmrt', max_pin='x.x') }}
